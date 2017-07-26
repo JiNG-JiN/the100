@@ -1,0 +1,493 @@
+/* Overrides */
+body {
+	padding-top: 74px;
+	background-color: #000000;
+	background-image: url('/assets/main/img/worldbg.jpg');
+	background-position: center 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	color: #ffffff;
+	font-family: 'AvenirLTStd-Light';
+}
+h1 {
+	font-family: 'AvenirLTStd-Light';
+	font-size: 20px;
+	font-weight: normal;
+}
+h2 {
+	font-family: 'AvenirLTStd-Light';
+	font-size: 16px;
+	font-weight: normal;
+}
+h3{
+	font-family: 'AvenirLTStd-Light';
+	font-size: 14px;
+	font-weight: normal;
+}
+p {
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 21px;
+}
+.when-where {
+	font-size: 12px;
+}
+
+.bio-text p {
+	font-size: 16px;
+}
+
+/* Custom utilites */
+.text-justify {
+	text-align: justify;
+}
+
+/* Top Navigation */
+.navbar-one .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-one {
+	height: auto;
+	background-color: rgb(28, 28, 28);
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-family: 'AvenirLTStd-Light';
+	font-size: 16px;
+	letter-spacing:1px;
+}
+.navbar-one .navbar-nav {
+		float: none;
+}
+.navbar-one .navbar-nav > li > a {
+	padding: 10px 15px;
+	color: rgb(102, 102, 102);
+}
+.navbar-one .navbar-nav > li > a:hover {
+	padding: 10px 15px;
+	color: #ffffff;
+	background-color: transparent;
+}
+.navbar-one .navbar-nav > li.active > a {
+	color: #ffffff;
+}
+.navbar-one >.container .navbar-brand {
+	background-image: url('/assets/main/img/oneinnewyork_logo_small.png');
+	width: 200px;
+	height: 40px;
+	margin-left: 0;
+}
+.navbar-brand span {
+	display: none;
+	text-indent: -9999em;
+	direction: ltr;
+}
+.navbar-one .the100link .glyphicon {
+	font-size: 10px;
+	padding-right: 10px;
+}
+.navbar-one .the100link .text {
+	padding-right: 5px;
+}
+.navbar-one .navbar-nav > li.social > a {
+	padding-right: 0;
+	padding-top: 6px;
+	float: left;
+}
+.navbar-one .nav .open > a, 
+.navbar-one .nav .open > a:hover, 
+.navbar-one .nav .open > a:focus,
+.navbar-one .dropdown-menu {
+	background-color:  rgb(28, 28, 28);
+}
+
+.navbar-one .dropdown-menu > li > a {
+	color: rgb(102, 102, 102); 
+	background-color:  rgb(28, 28, 28);
+	font-size: 16px;
+}
+.navbar-one .dropdown-menu > li > a:hover {
+	background-color:  rgb(28, 28, 28);
+	color: #ffffff;
+}
+
+/* Bottom navigation */
+.navbar-one-bottom {
+	height: 32px;
+	background-color: rgb(28, 28, 28);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'AvenirLTStd-Light';
+	font-size: 12px;
+	letter-spacing:1px;
+	margin: 100px 0 0 0;
+	overflow: hidden;
+}
+.navbar-one-bottom >.container .navbar-brand {
+	font-size: 12px;
+	color: rgb(102, 102, 102);
+	padding: 7px 15px;
+}
+.navbar-one-bottom .navbar-nav > li > a {
+	color: rgb(102, 102, 102);
+	padding: 7px 15px;
+}
+.navbar-one-bottom .navbar-nav > li > a:hover {
+	color: #ffffff;
+	background-color: transparent;
+}
+.navbar-one-bottom .navbar-nav > li.social > a {
+	padding-right: 0;
+	padding-top: 3px;
+	float: left;
+}
+
+/* Carousel */
+.carousel-one {
+	position: relative;
+	overflow: hidden;
+}
+.carousel-one .playbutton {
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 70px;
+	top: 50%;
+	margin-top: -35px;
+	z-index: 100;
+	left: 50%;
+	margin-left: -50px;
+	background-image: url('/assets/main/img/play.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	text-align: center;
+	color: #000000;
+}
+.carousel-one .playbutton-auditions {
+	color: #000000;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+.playbutton:hover {
+	text-decoration: none;
+}
+.carousel-one .carousel-inner > .item > img {
+	width:100%;
+}
+
+.carousel-fade .item {
+	-webkit-transition: opacity .5s; 
+	-moz-transition: opacity .5s; -
+	ms-transition: opacity .5s; 
+	-o-transition: opacity .5s; 
+	transition: opacity .5s;
+}
+.carousel-fade .active.left,
+.carousel-fade .active.right {
+	left:0;
+	opacity:0;
+	z-index:2;
+}
+.carousel-fade .next,
+.carousel-fade .prev {
+	left:0;
+	opacity:1;
+	z-index:1;
+}
+
+/* Video player */
+.player {
+	position: absolute;
+	left: -999999px;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+.player-show {
+	display: block;
+	z-index: 1100;
+	left: 0;
+}
+
+/* About section */
+.about {
+	padding-top: 75px;
+}
+.about  img {
+	margin: 0 auto;
+}
+.about .about-col {
+	margin-bottom: 50px;
+}
+
+/* The100 Section */
+.the100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.dancer-col {
+	padding:0;
+}
+.dancersWrapper {
+	display: inline-block;
+	text-align: center;
+	padding-top: 40px;
+	width: 100%;
+}
+
+/* Dancers */
+.dancer {
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	margin-left: -4px;
+}
+.dancer .journey {
+	margin: 10px;
+	padding: 0;
+	text-align: left;
+	color: #000;
+	background: rgba(255,255,255,.75);
+	max-height: 0;
+	width: 180px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	z-index: 1;
+}
+.dancer.open .journey {
+	display: block;
+	margin: 0; 
+	max-height: 5000px;
+	padding: 10px; 
+	height: auto;
+	width: 100%;
+}
+
+/* Auditions */
+.auditions {
+
+}
+
+/* Tickets */
+.tickets {
+	margin-bottom: 100px;
+}
+
+/* Contribute */
+.contribute {
+
+}
+
+/* Team */
+.team {
+
+}
+
+.team .bio {
+	margin-bottom: 50px;
+}
+.team h1 {
+	margin-top: 0;
+}
+
+/* Contact */
+.contact {
+
+}
+.contact h2 {
+	margin-top: 0;
+}
+img.contact {
+	margin: 0 auto;
+}
+
+
+/* Parallaxes */
+.parallax-wrap {
+	position: relative;
+	overflow: hidden;
+}
+.parallax-crowd {
+	background-image: url('/assets/main/img/parallax/crowd_parallax_768.jpg');
+	background-position: 0 -146px;
+	background-repeat: no-repeat;
+	min-height: 1400px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.parallax-aerialist {
+	background-image: url('/assets/main/img/parallax/aerialist_768.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	min-height: 1400px;
+	width: 100%;
+	position: absolute;
+	top: -150px;
+	left: 0;
+}
+
+/* Wordpress contact plugin */
+.wpcf7-form {
+	text-align: center
+} 
+.wpcf7-form-control-wrap input {
+	margin-bottom: 4px;
+	color: #000000;
+	border: 1px solid #ffffff;
+	background-color: rgb(209, 209, 209);
+	padding: 3px;
+}
+.wpcf7-form textarea {
+	background-color: rgb(209, 209, 209);
+	color: #000000;
+	border: 1px solid #ffffff;
+	padding: 3px;
+	height: 120px;
+}
+.wpcf7-form .wpcf7-submit {
+	float: right;
+	background-color: rgb(131, 177, 58);
+	width: 70px;
+	padding: 3px 8px;
+	margin: 3px 0 0 0;
+	color:#ffffff;
+	border: none;
+	border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wpcf7-f155-p10-o1 .wpcf7-email {
+	text-align: center; 
+	width: 30%; 
+	float: none; 
+	min-width: 130px; 
+	position: relative; 
+	display: inline-block; 
+	padding: 8px 0; 
+	margin-right: 0 !important; 
+	font: 200 12px/1.8em Arial, sans-serif !important;
+} 
+#wpcf7-f155-p10-o1 .wpcf7-submit {
+	text-align: center; 
+	width: 20% !important; 
+	float: none;
+	min-width: 90px; 
+	position: relative; 
+	border-radius: 4px; 
+	display: inline-block; 
+	margin: 0 0 10px -18px !important; 
+	font-size: 15px !important; 
+	font-weight: bold; 
+	background-color: #aaa;
+} 
+#wpcf7-f155-p10-o1 .wpcf7-submit:hover { 
+	background-color: #999 !important; 
+}
+
+/* modal */
+.modal-body {
+	color: #000000;
+}
+.modal-body p {
+	font-size: 20px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	/* Parallax Images */
+	.parallax-crowd {
+		background-image: url('/assets/main/img/parallax/crowd_parallax_992.jpg');
+		background-position: 0 -146px;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.parallax-aerialist {
+		background-image: url('/assets/main/img/parallax/aerialist_992.jpg');
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: -150px;
+		left: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/* Containers */
+	.container-narrow {
+		width: 1000px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.container-section {
+		padding-top: 100px;
+	}
+
+	.navbar-one .navbar-nav {
+		float: right;
+	}
+
+	/* Parallax Images */
+	.parallax-crowd {
+		background-image: url('/assets/main/img/parallax/crowd_parallax_1200.jpg');
+		background-position: 0 -146px;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.parallax-aerialist {
+		background-image: url('/assets/main/img/parallax/aerialist_1200.jpg');
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: -150px;
+		left: 0;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	/* Parallax Images */
+	.parallax-crowd {
+		background-image: url('http://oneinnewyork.com/wp-content/uploads/2013/06/crowd_parallax_color.jpg');
+		background-position: 0 -146px;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.parallax-aerialist {
+		background-image: url('/assets/main/img/parallax/aerialist_wide.jpg');
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		min-height: 1400px;
+		width: 100%;
+		position: absolute;
+		top: -150px;
+		left: 0;
+	}
+}
+
+
+
