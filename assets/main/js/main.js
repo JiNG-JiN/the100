@@ -219,6 +219,13 @@ var _wpcf7 = {
 
 // Wait until document is ready before adding click listeners
 $(function() {
+	
+	$("iframe").each(
+     function(index, elem) {
+         elem.setAttribute("scrolling","no");
+		 elem.setAttribute("style","overflow:hidden");
+     }
+    );
     // Set the height of parallax and carousels
     ONE.setViewHeight();
 
